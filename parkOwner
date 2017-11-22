@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分享我的车位</title>
+</head>
+<body>
+<form name="parkOwner" action="http://calmet.iask.in/wx" method="post">
+<p>第一次需要登记确认车位信息：</p>
+<p>请输入紧急联系电话：<input name="cheweiNum" type="text" id="006" size="11" maxlength="11" /> </p>
+<p>请选择物业: <select name="wuyeName"  size="1" id="001">
+    <option>亚信园区</option>
+    <option>张江创科园</option>
+</select></p>
+<p>车牌：<select name="chepai1"  size="1" id="002" >
+    <option>沪</option><option>湘</option> </select>
+    <input name="chepai2" type="text" id="003" size="6" maxlength="6" />
+</p>
+
+<p>车位编号：<input name="cheweiNum" type="text" id="004" size="6" maxlength="6" /> </p>
+
+<p>分享时段，开始：<!-- #BeginDate format:fIS1m -->Tuesday, 2017-11-21  23:15<!-- #EndDate -->
+</p>
+<p>结束：
+    <!-- #BeginDate format:fcIS1m -->Tuesday, 2017-11-21  23:15<!-- #EndDate -->
+</p>
+<input name="submit" type="submit" id="005" value="提交" />
+</form>
+</body>
+</html>
